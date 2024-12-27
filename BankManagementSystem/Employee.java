@@ -1,11 +1,11 @@
-package BankManagementSystem;
+package BankManagement;
 
 public class Employee extends Account {
     private int EmployeeID;
     private double EmployeeSalary;
 
-    public Employee(int accounNo, String name, int balance, int employeeID, double employeeSalary) {
-        super(accounNo, name, balance);
+    public Employee(int accountNo, String name, int balance, int employeeID, double employeeSalary) {
+        super(accountNo, name, balance);
         EmployeeID = employeeID;
         EmployeeSalary = employeeSalary;
     }

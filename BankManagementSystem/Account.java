@@ -1,12 +1,12 @@
-package BankManagementSystem;
+package BankManagement;
 
 public class Account {
-    private int AccounNo;
+    private int AccountNo;
     private String Name;
     private int Balance;
 
-    public Account(int accounNo, String name, int balance) {
-        AccounNo = accounNo;
+    public Account(int accountNo, String name, int balance) {
+        AccountNo = accountNo;
         Name = name;
         Balance = balance;
     }
@@ -28,7 +28,7 @@ public class Account {
 
     public void BankStatement() {
         System.out.println("Account Holder Name: " + Name);
-        System.out.println("Account Number: " + AccounNo);
+        System.out.println("Account Number: " + AccountNo);
         System.out.println("Balance: " + Balance);
     }
 
@@ -36,8 +36,8 @@ public class Account {
         return Balance;
     }
 
-    public int getAccounNo() {
-        return AccounNo;
+    public int getAccountNo() {
+        return AccountNo;
     }
 
     public String getName() {
